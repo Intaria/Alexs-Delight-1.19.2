@@ -61,9 +61,6 @@ public class ModItems {
     public static final RegistryObject<Item> COOKED_BUNFUNGUS = ITEMS.register("cooked_bunfungus",
             () -> new Item(new Item.Properties().tab(AMItemGroup.INSTANCE).food(ModFoods.COOKED_BUNFUNGUS)));
 
-    public static final RegistryObject<Item> COOKED_CENTIPEDE_LEG = ITEMS.register("cooked_centipede_leg",
-            () -> new Item(new Item.Properties().tab(AMItemGroup.INSTANCE).food(ModFoods.COOKED_CENTIPEDE_LEG)));
-
 
     //MEALS
     public static final RegistryObject<Item> GONGYLIDIA_BRUSCHETTA = ITEMS.register("gongylidia_bruschetta",
